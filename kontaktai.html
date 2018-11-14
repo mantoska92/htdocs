@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontaktai</title>
+    <style>
+        #trollButton {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+
 </head>
 <body>
 <header>
@@ -17,7 +27,38 @@
         <header>
             <h1>Kontaktai</h1>
         </header>
-        Kontaktai
+
+        <input type="time" value="6.0">
+
+
+        <form action="saugoti.php" method="post" target="_blank">
+
+            <label for="vardas">tavo vardas</label>
+            <input type="text" name="firstname " id="vardas"/>
+            <hr>
+            <label for="slaptazodis">slaptazodis</label>
+            <input type="textn" name="password" id="slaptazodis">
+            <input type="checkbox" onclick="myFunction()"> Show password
+            <hr>
+            <select name="cars" id="auto">
+                <option>Pasirinkite modeli</option>
+                <option value="OPEL">zaibas</option>
+                <option value="VOLVO">volvo</option>
+                <option value="Mercedes-Benz">merc</option>
+                <option value="Lamborghini">lambo</option>
+            </select>
+            <hr>
+            <label for="pa">Pasirinkimas A</label>
+            <input type="radio" name="pasirinkimasA" value="pasirinkimasA" id="pa">
+            <label for="pb">B</label>
+            <input type="radio" name="B" value="pasirinkimasB" id="pb">
+            <hr>
+            <button type="submit">Klausti</button>
+            <hr>
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/K7YNs1jiMfg?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </form>
+
+
     </div>
 </main>
 <footer>
