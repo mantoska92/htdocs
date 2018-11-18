@@ -1,0 +1,27 @@
+body{
+    color: darkred;
+    font-family: fantasy;
+    font-size:25px;
+}
+header{
+    background-color: cadetblue;
+}
+footer{
+    color: yellow;
+    background-color: saddlebrown ;
+}
+.top{
+    color: blue;
+    background-color: red;
+}
+h1{
+    font-weight: bold;
+    font-size:25px;
+
+}
+main{
+    text-align: center;
+    width:1850px;
+    border:1px crimson;
+    background: aquamarine;
+}

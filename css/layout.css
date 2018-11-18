@@ -1,0 +1,14 @@
+main{
+    width:1850px;
+
+    margin: 0 auto;
+}
+header {
+
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color:purple;
+    background-color:gold;
+}

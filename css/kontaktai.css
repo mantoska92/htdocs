@@ -1,0 +1,27 @@
+body{
+
+    color: gold ;
+    font-family: fantasy;
+    font-size:30px;
+
+}
+header {
+
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color:purple;
+    background-color:gold;
+}
+h1{
+    font-weight: bold;
+    font-size:25px;
+}
+main{
+    text-align: center;
+    width:1910px;
+    border:3px olive;
+    background: blueviolet;
+}
+
